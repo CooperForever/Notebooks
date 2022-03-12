@@ -7,14 +7,16 @@ export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
   lang: "zh-CN",
   title: "Cooper & Zero",
-  description: "Note Something",
+  description: "纸上得来终觉浅",
 
   // 主题和它的配置
   theme: "@vuepress/theme-default",
   themeConfig: {
-    logo: "https://vuejs.org/images/logo.png",
+    logo: '/images/navbarLogo.png',
     navbar: navbarConfig,
     sidebar: sidebarConfig,
-    repo: 'https://github.com/CooperForever'
+    repo: 'https://github.com/CooperForever',
+    editLinks: false,
+    editLinkText: '有错误请帮忙指出！',
   },
 });
