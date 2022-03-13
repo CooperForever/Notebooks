@@ -51,7 +51,7 @@ export default [
         activeMatch: "/",
       },
       {
-        text: "猪玲力荐",
+        text: "小说",
         link: "/not-foo/",
         // 该元素在当前路由路径是 /foo/ 开头时激活
         // 支持正则表达式

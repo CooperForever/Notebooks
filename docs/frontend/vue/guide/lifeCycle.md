@@ -6,7 +6,7 @@
 借用Vue官网生命周期图示
 需要注意的环节：
 1. `created`钩子调用后，此时data已经完成响应式处理，后续进行template的编译处理。
-2. `mounted`才是挂载完成阶段，Vue官网是这样说的： 父级组件不会保证所有子组件都被挂载完成，如果希望等到整个视图都渲染完毕，需要在`mounted`内部使用`vm.$nextTick`。
+2. `mounted`才是挂载完成阶段，Vue官网是这样说的： 父级组件不会保证所有子组件都被挂载完成（mounted），如果希望等到整个视图都渲染完毕，需要在`mounted`内部使用`vm.$nextTick`。
 3. watchers、子组件与监听事件在`destoryed`之前被销毁
 ![avatar](/images/lifecycle.png)
 
