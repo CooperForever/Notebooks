@@ -22,7 +22,7 @@ export default [
         link: "/frontend/vue/",
         children: [
           {
-            text: "高级特性",
+            text: "Vue特性",
             link: "/frontend/vue/guide",
           },
           {
