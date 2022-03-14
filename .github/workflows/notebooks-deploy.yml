@@ -6,11 +6,11 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-    - name: notebooks-deploy
-      uses: cooperforever/notebooks@main
+   -  name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: cooperforever/newtype
+        TARGET_REPO: CooperForever/Notebooks
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: notebooks/.vuepress/dist/
+        BUILD_DIR: docs/.vuepress/dist/
