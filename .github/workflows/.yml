@@ -1,0 +1,17 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@main
+
+    - name: vuepress-deploy
+      uses: CooperForever/Notebooks@main
+      env:
+        ACCESS_TOKEN: ${{ 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 }}
+        TARGET_REPO: CooperForever/NewType
+        TARGET_BRANCH: main
+        BUILD_SCRIPT: yarn && yarn build
+        BUILD_DIR: notebooks/.vuepress/dist/
