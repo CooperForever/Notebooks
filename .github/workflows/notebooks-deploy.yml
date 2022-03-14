@@ -7,10 +7,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - name: notebooks-deploy
-      uses: CooperForever/Notebooks@main
+      uses: cooperforever/notebooks@main
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: CooperForever/NewType
+        TARGET_REPO: cooperforever/newtype
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: notebooks/.vuepress/dist/
