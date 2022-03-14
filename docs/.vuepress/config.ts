@@ -4,7 +4,7 @@ import navbarConfig from './navbarConfig'
 import sidebarConfig from './siderbarConfig'
 
 export default defineUserConfig<DefaultThemeOptions>({
-  base:"/NoteBooks/",
+  base:"/NewType/",
   // 站点配置
   lang: "zh-CN",
   title: "Cooper & Zero",
