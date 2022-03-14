@@ -8,10 +8,10 @@ jobs:
       uses: actions/checkout@master
 
     - name: vuepress-deploy
-      uses: CooperForever/Notebooks@main
+      uses: CooperForever/Notebooks@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: CooperForever/NewType
-        TARGET_BRANCH: main
+        TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: notebooks/.vuepress/dist/
