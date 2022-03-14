@@ -15,7 +15,7 @@ export default {
     {
       text: "Vue特性",
       collapsible: false,
-      children: ["/frontend/vue/guide/lifeCycle.md"],
+      children: ["/frontend/vue/guide/lifeCycle.md","/frontend/vue/guide/VueRouter.md"],
     },
     {
       text: "Vue源码分析",
