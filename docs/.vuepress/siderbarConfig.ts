@@ -8,19 +8,28 @@ export default {
     {
       text: "Js进阶",
       collapsible: true,
-      children: ["/frontend/js/advanced/eventloop.md", "/frontend/js/advanced/this.md"],
+      children: [
+        "/frontend/js/advanced/eventloop.md",
+        "/frontend/js/advanced/this.md",
+      ],
     },
   ],
   "/frontend/vue/": [
     {
       text: "Vue特性",
       collapsible: false,
-      children: ["/frontend/vue/guide/lifeCycle.md","/frontend/vue/guide/VueRouter.md"],
+      children: [
+        "/frontend/vue/guide/lifeCycle.md",
+        "/frontend/vue/guide/VueRouter.md",
+      ],
     },
     {
       text: "Vue源码分析",
       collapsible: true,
-      children: ["/frontend/vue/sourceCode/eventloop.md", "/frontend/js/advanced/this.md"],
+      children: [
+        "/frontend/vue/sourceCode/eventloop.md",
+        "/frontend/js/advanced/this.md",
+      ],
     },
   ],
   "/interview/": [
@@ -35,5 +44,21 @@ export default {
       children: ["/interview/11to20.md"],
     },
   ],
-  
+  "/buildtool/": [
+    {
+      text: "Rollup",
+      collapsible: true,
+      children: ["/buildtool/rollup/readme.md"],
+    },
+    {
+      text: "Webpack",
+      collapsible: true,
+      children: ["/buildtool/webpack/readme.md"],
+    },
+    {
+      text: "Vite",
+      collapsible: true,
+      children: ["/buildtool/vite/readme.md"],
+    },
+  ],
 };

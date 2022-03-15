@@ -31,6 +31,24 @@ export default [
           },
         ],
       },
+      {
+        text: "构建工具",
+        link: "/buildtool/",
+        children: [
+          {
+            text: "Rollup",
+            link: "/buildtool/rollup",
+          },
+          {
+            text: "Vite",
+            link: "/buildtool/webpack",
+          },
+          {
+            text: "Webpack",
+            link: "/buildtool/vite",
+          },
+        ],
+      },
     ],
   },
   {
@@ -45,17 +63,12 @@ export default [
     text: "读书分享",
     children: [
       {
-        text: "杂谈",
-        link: "/",
-        // 该元素将一直处于激活状态
-        activeMatch: "/",
+        text: "文章",
+        link: "/readings/articles/",
       },
       {
         text: "小说",
-        link: "/not-foo/",
-        // 该元素在当前路由路径是 /foo/ 开头时激活
-        // 支持正则表达式
-        activeMatch: "^/foo/",
+        link: "/readings/novels/",
       },
     ],
   },
