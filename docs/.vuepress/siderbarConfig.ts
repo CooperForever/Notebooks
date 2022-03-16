@@ -61,4 +61,27 @@ export default {
       children: ["/buildtool/vite/readme.md"],
     },
   ],
+  "/leetcode/": [
+    {
+      text: "Stack",
+      collapsible: true,
+      children: ["/leetcode/stack/validparentheses.md"],
+    },
+    {
+      text: "Queue",
+      collapsible: true,
+      children: ["/leetcode/queue/recentcall.md"],
+    },
+    {
+      text: "LinkedList",
+      collapsible: true,
+      children: [
+        "/leetcode/linkedlist/delnode.md",
+        "/leetcode/linkedlist/reverse-linked-list.md",
+        "/leetcode/linkedlist/towsum.md",
+        "/leetcode/linkedlist/remove-duplicates-from-sorted-list.md",
+        "/leetcode/linkedlist/linked-list-cycle.md",
+      ],
+    },
+  ],
 };
