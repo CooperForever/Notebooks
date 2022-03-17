@@ -83,5 +83,10 @@ export default {
         "/leetcode/linkedlist/linked-list-cycle.md",
       ],
     },
+    {
+      text: "Map&Set",
+      collapsible: true,
+      children: ["/leetcode/dict-set/intersection-of-two-arrays.md",'/leetcode/dict-set/longest-str.md','/leetcode/dict-set/min-window-str.md'],
+    },
   ],
 };

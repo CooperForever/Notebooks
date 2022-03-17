@@ -18,14 +18,14 @@ var isValid = function (s) {
     for (let item of s.split("")) {
         if (parentheses.has(item)) {
             stack.push(item)
-        } else if (item == "}" | item == "]" | item == ")") {
-            let key = stack.pop()
-            if ( item !== parentheses.get(key)) {
+        } else  {
+            let last = stack[stack.length - 1]
+            if ( item === parentheses.get(last)) {
+                stack.pop()
+            }else{
                 return false
             }
-        } else {
-            return false
-        }
+        } 
     }
     return stack.length === 0
 };
