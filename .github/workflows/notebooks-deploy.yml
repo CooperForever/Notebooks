@@ -13,4 +13,4 @@ jobs:
         TARGET_REPO: CooperForever/NewType
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn docs:build
-        BUILD_DIR: docs/.vuepress/dist/
+        BUILD_DIR: /
