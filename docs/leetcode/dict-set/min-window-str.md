@@ -1,6 +1,6 @@
 # 最小覆盖子串
 ![leetcode](https://img.shields.io/badge/leetcode-76-blue "leetcode") ![leetcode](https://img.shields.io/badge/-hard-red "leetcode")    
-解题思路：双指针维护滑动窗口， 移动右指针找到包含T的子串，移动左指针，尽量减少包含T子串的长度  
+解题思路：双指针维护滑动窗口， 移动右指针找到包含T的子串，移动左指针，尽量减少包含T子串的长度。 
 ## Code Part
 ```js
 /**
