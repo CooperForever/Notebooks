@@ -49,6 +49,10 @@ export default [
           },
         ],
       },
+      {
+        text: "React",
+        link: "/frontend/react/",
+      },
     ],
   },
   {
