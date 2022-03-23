@@ -9,8 +9,8 @@ export default {
       text: "Js进阶",
       collapsible: true,
       children: [
-        "/frontend/js/advanced/eventloop.md",
-        "/frontend/js/advanced/this.md",
+        "/frontend/js/advanced/websocket.md",
+        // "/frontend/js/advanced/this.md",
       ],
     },
   ],
