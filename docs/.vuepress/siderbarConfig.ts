@@ -21,14 +21,15 @@ export default {
       children: [
         "/frontend/vue/guide/lifeCycle.md",
         "/frontend/vue/guide/VueRouter.md",
+        "/frontend/vue/guide/props.md",
       ],
     },
     {
       text: "Vue源码分析",
       collapsible: true,
       children: [
-        "/frontend/vue/sourceCode/eventloop.md",
-        "/frontend/js/advanced/this.md",
+        "/frontend/vue/sourceCode/websocket.md",
+        // "/frontend/js/advanced/this.md",
       ],
     },
   ],
@@ -86,7 +87,11 @@ export default {
     {
       text: "Map&Set",
       collapsible: true,
-      children: ["/leetcode/dict-set/intersection-of-two-arrays.md",'/leetcode/dict-set/longest-str.md','/leetcode/dict-set/min-window-str.md'],
+      children: [
+        "/leetcode/dict-set/intersection-of-two-arrays.md",
+        "/leetcode/dict-set/longest-str.md",
+        "/leetcode/dict-set/min-window-str.md",
+      ],
     },
   ],
 };
