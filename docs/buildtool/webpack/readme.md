@@ -241,3 +241,15 @@ SourceMap 是一种映射关系，当项目运行后，如果出现错误，我�
    Tree-shaking 作用是剔除没有使用的代码，以降低包的体积。生产环境默认开启。
 4. Scope Hoisting
    作用域提升，原理是将多个模块放在同一个作用域下，**以此来减少函数声明和内存开销**，webpack默认开启
+## webpack工作原理
+![avatar](/images/webpack2.awebp)
+webpack首先从配置文件和shell启动语句中读取合并参数，初始化完成后调用Complier的`run`来启动编译构建过程，webpack的构建流程包括：
+- compile
+- make
+  从入口文件触发，调用所有loader对模块翻译，在找出模块的依赖
+- build
+  生成依赖关系图
+- seal
+  根据模块之间的依赖关系，组装成包含多个模块的Chunk，在把chunk转换成单独的文件加入输出列表
+- emit
+  根据确定的输出路径和文件名，把文件内容写入到文件系统
