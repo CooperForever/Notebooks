@@ -242,7 +242,6 @@ SourceMap 是一种映射关系，当项目运行后，如果出现错误，我�
 4. Scope Hoisting
    作用域提升，原理是将多个模块放在同一个作用域下，**以此来减少函数声明和内存开销**，webpack默认开启
 ## webpack工作原理
-![avatar](/images/webpack2.awebp)
 webpack首先从配置文件和shell启动语句中读取合并参数，初始化完成后调用Complier的`run`来启动编译构建过程，webpack的构建流程包括：
 - compile
 - make
