@@ -28,8 +28,7 @@ export default {
       text: "Vue源码分析",
       collapsible: true,
       children: [
-        "/frontend/vue/sourceCode/websocket.md",
-        // "/frontend/js/advanced/this.md",
+        "/frontend/vue/sourceCode/vue.md",
       ],
     },
   ],
@@ -91,6 +90,23 @@ export default {
         "/leetcode/dict-set/intersection-of-two-arrays.md",
         "/leetcode/dict-set/longest-str.md",
         "/leetcode/dict-set/min-window-str.md",
+      ],
+    },
+    {
+      text: "Tree",
+      collapsible: true,
+      children: [
+        "/leetcode/tree/binaryTree.md",
+        "/leetcode/tree/maximum-depth-of-binary-tree.md",
+        "/leetcode/tree/minimum-depth-of-binary-tree.md",
+      ],
+    },
+    {
+      text: "Sort&Serach",
+      collapsible: true,
+      children: [
+        "/leetcode/sort&search/sort.md",
+        "/leetcode/sort&search/search.md",
       ],
     },
   ],
