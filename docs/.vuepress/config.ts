@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: Jiang chen yi
+ * @Date: 2022-04-19 12:36:46
+ * @LastEditors: Jiang chen yi
+ * @LastEditTime: 2022-04-20 14:46:07
+ */
 import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
 import navbarConfig from './navbarConfig'
@@ -19,5 +26,9 @@ export default defineUserConfig<DefaultThemeOptions>({
     repo: 'https://github.com/CooperForever',
     editLinks: false,
     editLinkText: '有错误请帮忙指出！',
+    notFound:[
+      "访问的笔记不存在"
+    ],
+    backToHome:"返回首页"
   },
 });

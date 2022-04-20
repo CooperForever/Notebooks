@@ -61,6 +61,13 @@ export default {
       children: ["/buildtool/vite/readme.md"],
     },
   ],
+  "/git/": [
+    {
+      text: "版本控制",
+      collapsible: true,
+      children: ["/git/git.md"],
+    },
+  ],
   "/leetcode/": [
     {
       text: "Stack",

@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: Jiang chen yi
+ * @Date: 2022-04-19 12:36:46
+ * @LastEditors: Jiang chen yi
+ * @LastEditTime: 2022-04-20 12:38:48
+ */
 export default [
   // NavbarItem
   {
@@ -15,6 +22,10 @@ export default [
             text: "Js进阶",
             link: "/frontend/js/advanced/websocket.md",
           },
+          {
+            text: "React",
+            link: "/frontend/react/",
+          },
         ],
       },
       {
@@ -31,6 +42,7 @@ export default [
           },
         ],
       },
+    
       {
         text: "构建工具",
         link: "/buildtool/",
@@ -49,10 +61,18 @@ export default [
           },
         ],
       },
+   
       {
-        text: "React",
-        link: "/frontend/react/",
+        text: "版本控制",
+        link: "/git/",
+        children: [
+          {
+            text: "git",
+            link: "/git/git.md",
+          },
+        ]
       },
+      
     ],
   },
   {
