@@ -23,6 +23,10 @@ export default [
             link: "/frontend/js/advanced/websocket.md",
           },
           {
+            text: "Js进阶",
+            link: "/frontend/js/code/readme.md",
+          },
+          {
             text: "React",
             link: "/frontend/react/",
           },
