@@ -1,0 +1,1 @@
+const t={key:"v-6a111516",path:"/buildtool/rollup/",title:"rollup",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652262776e3,contributors:[{name:"Jiang chen yi",email:"jiangchenyi@phoenixcontact.com.cn",commits:1}]},filePathRelative:"buildtool/rollup/readme.md"};export{t as data};

@@ -1,0 +1,1 @@
+const t={key:"v-959bb0bc",path:"/buildtool/",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652262776e3,contributors:[{name:"Jiang chen yi",email:"jiangchenyi@phoenixcontact.com.cn",commits:1}]},filePathRelative:"buildtool/readme.md"};export{t as data};

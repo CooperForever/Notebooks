@@ -1,0 +1,1 @@
+const e={key:"v-1b747fd2",path:"/leetcode/linkedlist/",title:"\u94FE\u8868",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652262776e3,contributors:[{name:"Jiang chen yi",email:"jiangchenyi@phoenixcontact.com.cn",commits:1}]},filePathRelative:"leetcode/linkedlist/readme.md"};export{e as data};

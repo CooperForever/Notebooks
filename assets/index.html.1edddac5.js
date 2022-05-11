@@ -1,0 +1,1 @@
+const e={key:"v-500fb76e",path:"/frontend/microfrontends/",title:"\u5FAE\u524D\u7AEF",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652262776e3,contributors:[{name:"Jiang chen yi",email:"jiangchenyi@phoenixcontact.com.cn",commits:1}]},filePathRelative:"frontend/microfrontends/readme.md"};export{e as data};
