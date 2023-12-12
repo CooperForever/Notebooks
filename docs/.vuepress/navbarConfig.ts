@@ -1,5 +1,5 @@
 /*
- * @Description: 
+ * @Description:
  * @Author: Jiang chen yi
  * @Date: 2022-04-19 12:36:46
  * @LastEditors: Jiang chen yi
@@ -30,6 +30,10 @@ export default [
             text: "React",
             link: "/frontend/react/",
           },
+          {
+            text: "Sass",
+            link: "/frontend/sass/",
+          },
         ],
       },
       {
@@ -46,7 +50,7 @@ export default [
           },
         ],
       },
-    
+
       {
         text: "构建工具",
         link: "/buildtool/",
@@ -65,7 +69,7 @@ export default [
           },
         ],
       },
-   
+
       {
         text: "版本控制",
         link: "/git/",
@@ -74,9 +78,8 @@ export default [
             text: "git",
             link: "/git/git.md",
           },
-        ]
+        ],
       },
-      
     ],
   },
   {

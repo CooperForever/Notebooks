@@ -27,9 +27,14 @@ export default {
     {
       text: "Vue源码分析",
       collapsible: true,
-      children: [
-        "/frontend/vue/sourceCode/vue.md",
-      ],
+      children: ["/frontend/vue/sourceCode/vue.md"],
+    },
+  ],
+  "/frontend/sass/": [
+    {
+      text: "Sass",
+      collapsible: false,
+      children: ["/frontend/sass/sass.md", "/frontend/sass/theme.md"],
     },
   ],
   "/interview/": [
