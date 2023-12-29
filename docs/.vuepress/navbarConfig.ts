@@ -83,6 +83,34 @@ export default [
     ],
   },
   {
+    text: "后端笔记",
+    link: "/backend/",
+    children: [
+      {
+        text: "language",
+        children: [
+          {
+            text: "NodeJs",
+            link: "/backend/language/node",
+          },
+          {
+            text: "Rust",
+            link: "/backend/language/rust",
+          },
+        ],
+      },
+      {
+        text: "framework",
+        children: [
+          {
+            text: "NestJs",
+            link: "/backend/nestjs",
+          },
+        ],
+      },
+    ],
+  },
+  {
     text: "Leetcode",
     link: "/leetcode/",
   },
