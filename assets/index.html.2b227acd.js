@@ -1,0 +1,1 @@
+const e={key:"v-622f9de9",path:"/buildtool/vite/",title:"\u6784\u5EFA\u5DE5\u5177",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1703816735e3,contributors:[{name:"cooper",email:"cooperforver@163.com",commits:1}]},filePathRelative:"buildtool/vite/readme.md"};export{e as data};

@@ -1,0 +1,1 @@
+import{o as e,a as s,b as a,d as t}from"./app.30979e86.js";import{_ as o}from"./plugin-vue_export-helper.21dcd24c.js";const r={},c={id:"sass",tabindex:"-1"},_=a("a",{class:"header-anchor",href:"#sass","aria-hidden":"true"},"#",-1),n=t(" Sass"),d=[_,n];function i(h,f){return e(),s("h1",c,d)}var x=o(r,[["render",i]]);export{x as default};

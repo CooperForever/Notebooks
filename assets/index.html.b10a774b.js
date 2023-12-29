@@ -1,0 +1,1 @@
+const e={key:"v-40248f7a",path:"/backend/language/",title:"Nestjs",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1703816735e3,contributors:[{name:"cooper",email:"cooperforver@163.com",commits:1}]},filePathRelative:"backend/language/README.md"};export{e as data};

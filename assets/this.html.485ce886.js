@@ -1,0 +1,1 @@
+const e={key:"v-1d6d86d0",path:"/frontend/js/advanced/this.html",title:"this\u6307\u5411\u95EE\u9898",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"ES5",slug:"es5",children:[]}],git:{updatedTime:1703816735e3,contributors:[{name:"cooper",email:"cooperforver@163.com",commits:1}]},filePathRelative:"frontend/js/advanced/this.md"};export{e as data};

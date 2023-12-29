@@ -1,0 +1,1 @@
+const e={key:"v-30fa7a53",path:"/leetcode/linkedlist/towsum.html",title:"\u4E24\u6570\u76F8\u52A0",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Code Part",slug:"code-part",children:[]}],git:{updatedTime:1703816735e3,contributors:[{name:"cooper",email:"cooperforver@163.com",commits:1}]},filePathRelative:"leetcode/linkedlist/towsum.md"};export{e as data};

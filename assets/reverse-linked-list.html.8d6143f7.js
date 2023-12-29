@@ -1,0 +1,14 @@
+import{c as n}from"./app.30979e86.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";const a={},e=n(`<h1 id="\u53CD\u8F6C\u94FE\u8868" tabindex="-1"><a class="header-anchor" href="#\u53CD\u8F6C\u94FE\u8868" aria-hidden="true">#</a> \u53CD\u8F6C\u94FE\u8868</h1><p><img src="https://img.shields.io/badge/leetcode-206-blue" alt="leetcode" title="leetcode"> <img src="https://img.shields.io/badge/-easy-green" alt="leetcode" title="leetcode"><br> \u89E3\u9898\u601D\u8DEF\uFF1A\u53CC\u6307\u9488\u4E00\u524D\u4E00\u540E\u904D\u5386\u94FE\u8868\uFF0C\u53CD\u8F6C\u53CC\u6307\u9488</p><h2 id="code-part" tabindex="-1"><a class="header-anchor" href="#code-part" aria-hidden="true">#</a> Code Part</h2><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> <span class="token function-variable function">reverseList</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">head</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> p1 <span class="token operator">=</span> head<span class="token punctuation">;</span>
+    <span class="token keyword">let</span> p2 <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">while</span><span class="token punctuation">(</span>p1<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">const</span> tmp <span class="token operator">=</span> p1<span class="token punctuation">.</span>next
+        p1<span class="token punctuation">.</span>next <span class="token operator">=</span> p2
+        p2 <span class="token operator">=</span> p1
+        p1 <span class="token operator">=</span> tmp
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> p2
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token comment">// \u65F6\u95F4\u590D\u6742\u5EA6 On</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div>`,4);function p(t,o){return e}var l=s(a,[["render",p]]);export{l as default};
